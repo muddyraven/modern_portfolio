@@ -45,6 +45,13 @@
       height: 150px;
     }
   }
+
+  .about-info {
+    //grid-template is an unknown property but appears to work
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
+
+    grid-template-columns: 1fr;
+  }
 }
 
 // Smartphones
